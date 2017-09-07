@@ -1,0 +1,66 @@
+
+/*------ Portfolio CSS Page --------*/
+
+* {
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	display: flex;
+}
+
+.name { 
+	width: 30%;
+	height 50px;
+	text-align: center;
+	position: relative;
+	margin: auto;
+}
+
+.logobox {
+	width: 10%;
+	height: 100%;
+	*background-color: #66ff66;
+	display: flex;
+}
+
+.logo {
+	position: relative;
+	margin: auto auto;
+	height: 75%;
+	width: 75%;
+}
+
+.photo {
+	height: 300px;	
+	width: 100%;
+	background-color: #6666ff;
+}
+
+.projects{
+	width: 100%;
+	display: flex;
+}
+
+.projectbox {
+	text-align: center;
+	width: 33.333%;
+	height: 200px;
+}
+
+hr {
+	background: #333;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	width: 96%;
+}
+
