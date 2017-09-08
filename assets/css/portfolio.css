@@ -3,6 +3,8 @@
 
 * {
 	box-sizing: border-box;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+
 }
 
 .container {
@@ -34,7 +36,6 @@ header {
 }
 
 .name {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	width: 70%;
 	height: 100%;	
 	text-align: center;
