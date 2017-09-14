@@ -54,7 +54,6 @@ header {
 .logobox {
 	width: 15%;
 	height: 100%;
-	*background-color: #66ff66;
 	display: flex;
 }
 
@@ -92,31 +91,37 @@ header {
 	margin: 0px;
 }
 
-#featwork > p{
+#featwork > p {
 	margin: 4px 0px 2px 0px;
 }
 
-.projects{
+.projects {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .projectbox {
+	width: 33.3333%;
 	text-align: center;
-	height: 300px;
 	overflow: hidden;
 	margin: 0px;
 }
 
-.projectback{
-	width: 325px;
-	height: 220px;
+.projectimg {
+	width: 80%;
+	height: auto;
 	margin: 5px 5px;
 	opacity: .8;
+
 }
 
-.projectlogo{
+.projectimg::after{
+	height: 80%;
+
+}
+
+.projectlogo {
 	display: block;
 	width: 110px;
 	height: auto;
@@ -130,28 +135,20 @@ hr {
 	width: 100%;
 }
 
-
-/* Sizing For Normal Page */
-@media{
-	.projectbox{
-		width: 33.33333%;		
-	}	
-}
-
 /* Sizing for Tablet Page */
-@media(max-width: 860px){
-	.projectbox{
+@media(max-width: 860px) {
+	.projectbox {
 		width: 50%;		
 	}
 
-	.photo{
+	.photo {
 		height: 190px;
 	}
 
 }
 
 /* Sizing for Mobile Page */
-@media(max-width: 610px){
+@media(max-width: 610px) {
 	h1 {
 		font-size: 25pt;
 	}
